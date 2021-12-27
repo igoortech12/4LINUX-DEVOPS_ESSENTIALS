@@ -1,0 +1,35 @@
+REPOSITORY ON-PREMISE
+1-Create repository in GitHub
+2-Access Codeanywhere.com and create container (Bank)
+3-Wait creater container
+4-Open and user IDE for Codeanywhere.com
+5-Verify version git with command line "git --version"
+6-Create diretory with command line "mkdir NAME_REPOSITORY"
+7-Access new diretory with command line "cd NAME_REPOSITORY"
+8-Configurate account from git with command line 
+"git config --gloal user.name "YOUR_NAME"
+9-Configurate account from git with command line
+"git config --global user.email "YOUR_EMAIL"
+10-Create new file with command line "touch NAME_FILE"
+11-Add NEW_FILE in list for git with command line 
+"git add NAME_YOUR_NEW_FILE"
+12-Verify status git with command line "git status"
+13-Maker commiter your firts file with command line
+"git commit -m "NAME_YOUR_FILE"
+14-Create two new files with command line "touch arquivo2 arquivo3"
+15-Add new files in list git with command line 
+"git add"
+16-Verify status with command line "git status"
+17-Maker commiter your files with command line
+"git commit -m "NAME_YOUR_COMMIT"
+18-Create Twenty files .log with command line
+"touch app{1..20}.log"
+19-Verify status: git status
+20-Add new files in list: git add
+21-Commit new fies: git commit -m "Repository update"
+22-Verify story of commit with command line "git log"
+
+REPOSITORY REMOTE
+1-Create ssh private/public-key with command line "ssh-keygen"
+2-Copy key address. Example: /home/cabox/.ssh/id_rsa.pub
+3-Paste and execute the address copyed 
