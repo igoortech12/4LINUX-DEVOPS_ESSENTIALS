@@ -32,4 +32,15 @@ REPOSITORY ON-PREMISE
 REPOSITORY REMOTE
 1-Create ssh private/public-key with command line "ssh-keygen"
 2-Copy key address. Example: /home/cabox/.ssh/id_rsa.pub
-3-Paste and execute the address copyed 
+3-Paste and execute the address copyed used inital command "cat /home/cabox/.ssh/id_rsa.pub"
+4-Copy ssh-key
+5-Access "Settings in GitHub". Next Option "SSH and GPG key".
+6-Paste ssh-key copyed and create an title for key.
+7-Validate access remote in git with command line "git remote add origin git@github.com:igoortech12/4Linux-DevOps_Essentials.git
+8-Visualizer validation of repository remote with command line "git remote -v"
+9-Transformer repository origin in repository main with command line "git branch -M main
+10-Send repository for main with command line "git push -u origin main"
+11-Create file README.md with command line "touch README.md"
+12-Send file for git with command line "git add README.md", next user "git commit -m "NAME_REPOSITORY"
+13-Finish to send the commit with command push: git push origin main
+
